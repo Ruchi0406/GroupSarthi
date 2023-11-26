@@ -23,7 +23,7 @@ class Data:
     ]
 
     # Rest Buttons
-    buttons =[ [ InlineKeyboardButton("➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+    buttons =[ [ InlineKeyboardButton("➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕", url=f"https://t.me/GroupSarthi_bot?startgroup=true")],
     [InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help"),
     InlineKeyboardButton("ᴀʙᴏᴜᴛ ", callback_data="about")
     ]
