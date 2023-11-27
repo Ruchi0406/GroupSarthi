@@ -47,7 +47,7 @@ async def main(bot: Client, msg: Message):
 
                 if action == 'warn':
                     await msg.reply(
-                        f"ʜᴇʏ ᴅᴇᴀʀ  {msg.from_user.mention},\n\nʏᴏᴜ ᴍᴜsᴛ ʜᴀᴠᴇ ᴛᴏ ᴊᴏɪɴ {mention} ᴛᴏ ʀᴇᴍᴀɪɴ ɪɴ ᴛʜɪꜱ ɢʀᴏᴜᴘ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴛʏᴘᴇ ᴏꜰ ᴡᴀʀɴɪɴɢ (◕‿◕)",
+                        f"ʜᴇʏ ᴅᴇᴀʀ  {msg.from_user.mention},\n\nʏᴏᴜ ᴍᴜsᴛ ʜᴀᴠᴇ ᴛᴏ ᴊᴏɪɴ {mention} ᴛᴏ ɢᴇᴛ ʀɪᴅ ᴏꜰ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ (◕‿◕)",
                         disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("✨ sᴜʙsᴄʀɪʙᴇ  ᴍʏ ᴄʜᴀɴɴᴇʟ  ✨", url=link)]])
                     )
