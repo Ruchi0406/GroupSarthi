@@ -60,9 +60,12 @@ async def main(bot: Client, msg: Message):
     except ChatAdminRequired:
         await msg.reply(f"ɪ ʜᴀᴠᴇ ʙᴇᴇɴ ᴅᴇᴍᴏᴛᴇᴅ ɪɴ {force_chat} (force subscribe chat)")
 
-# Define the modified get_action function
+# Define the modified get_action function without the placeholder
 async def get_action(chat_id):
-    # Replace this with your logic to retrieve the desired action for the chat
+    # Replace this with your actual logic to retrieve the desired action for the chat
     # If no specific action is set, return 'warn' by default
-    action = await your_logic_to_retrieve_action(chat_id)
-    return action if action else 'warn'
+    # For example, you might have a database query or some other logic here
+    # Replace the following line with your actual logic
+    # action = your_actual_logic_to_retrieve_action(chat_id)
+    action = 'warn'  # Default to 'warn' if no specific action is configured
+    return action
