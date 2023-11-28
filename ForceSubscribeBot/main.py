@@ -56,7 +56,9 @@ async def main(bot: Client, msg: Message):
                     await msg.stop_propagation()
 
             except ChatWriteForbidden:
+                print("Warning: ChatWriteForbidden")
                 pass
 
     except ChatAdminRequired:
+        print("Warning: ChatAdminRequired")
         await msg.reply(f"ɪ ʜᴀᴠᴇ ʙᴇᴇɴ ᴅᴇᴍᴏᴛᴇᴅ ɪɴ {force_chat} (force subscribe chat)")
